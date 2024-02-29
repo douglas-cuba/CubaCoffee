@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&family=Teko:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: #080000;
+    color: #ffffff;
+}
+
+html {
+    font-family: inter, sans-serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+nav {
+    max-width: 1220px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    text-transform: uppercase;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #FFF2E780;
+
+}
+
+.github {
+    color: #FFF2E7;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-div{
+    background-color: #150a00 ;
+
+}
+
+.hero{
+    
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 0rem 2rem;
+    margin: auto;
+    overflow: clip;
+
+
+}
+
+.hero-conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    gap: 1rem;
+
+}
+
+.destaque {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+.marrom {
+    color: #A45A49;
+}
+.amarelo {
+    color: #E7A80E ;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 3.125rem;
+    text-transform: uppercase;
+}
+
+hr{
+    border-color: #A45A49;
+}
+
+ h2{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #C7BAB3;
+ }
+
+.hero-img {
+    max-width: 45%;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+
+
+
+}
+
+.hero-img > figure >img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.botao {
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate("0, -50%");
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+button {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #A45A49;
+    cursor: pointer;
+  /*  transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;*/
+}
+
+
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+}
+
+.receitas-head{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem 0rem;
+}
+
+.receitas-titulo {
+    font-family: 'Montserrat'; /* Escolher a fonte */
+    font-weight: 700; /* peso ou grossura da fonte */
+    font-size: 2rem;
+    color: #fff2e7;  
+    text-transform: uppercase; 
+}
+
+.receitas-subtitulo{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #C7BAB3;
+}
+
+.cards{
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+
+
+
+}
+
+.card-1{
+    background:#221300;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+
+
+}
+
+.card-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+
+}
+
+.txt-head-card-1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.nota{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    color: #756A67
+}
+
+.obs{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #C7BAB3;
+}
+
+.autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.autor > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 20rem;
+}
+
+.nome-autor {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 1rem;
+     color: #C7BAB3;
+}
+
+.rodape{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #18130a;
+}
+.rodape-copy{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    color: #FFF2E7;
+}
+.rodape-autor {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 242, 231, 0.5);
+}
